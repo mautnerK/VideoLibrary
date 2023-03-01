@@ -28,12 +28,6 @@ CREATE TABLE HistoryOfLoans(
 	MemberId int FOREIGN KEY(MemberId) REFERENCES MEMBERS(MemberId),
 );
 
-DROP TABLE HistoryOfLoans
-DROP TABLE Loan
-DROP TABLE Members
-DROP TABLE Movies
-
-
 insert into Movies values ('The Shawshank Redemption', 'Drama', 1994,0)
 insert into Movies values ('The Godfather', 'Crime, Drama', 1972,0)
 insert into Movies values ('The Dark Knight', 'Action, Crime, Drama', 2008,0)
